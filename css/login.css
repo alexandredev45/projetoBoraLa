@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#boxLogin{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#boxLogin form{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+#boxLogin form h2{
+    text-align: center;
+    font-size: 35px;
+    margin: 20px 0px;
+}
+#boxLogin form .inputEmail, #boxLogin form .inputSenha{
+    width: 90%;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+#boxLogin form .btnLogar, #boxLogin form .btnCd{
+    width: 150px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #2da9f5;
+    color: white;
+    margin: 0px 5px;
+}
